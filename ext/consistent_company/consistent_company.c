@@ -355,8 +355,7 @@ int IsCompanyWord(char * inWord)
 		strcmp(inWord, "PRODUCTIONS") == 0 ||
 		strcmp(inWord, "PRODUCTS") == 0 ||
 		strcmp(inWord, "TR") == 0 ||
-		strcmp(inWord, "TRADE") == 0 ||
-		strcmp(inWord, "WWW") == 0)
+		strcmp(inWord, "TRADE") == 0)
 		return 1;
 	else
 		return 0;
