@@ -321,6 +321,7 @@ int IsCompanyWord(char * inWord)
 		strcmp(inWord, "ATY") == 0 ||
 		strcmp(inWord, "AUTO") == 0 ||
 		strcmp(inWord, "CO") == 0 ||
+		strcmp(inWord, "COM") == 0 ||
 		strcmp(inWord, "COMP") == 0 ||
 		strcmp(inWord, "COMPANIES") == 0 ||
 		strcmp(inWord, "COMPANY") == 0 ||
@@ -343,17 +344,19 @@ int IsCompanyWord(char * inWord)
 		strcmp(inWord, "LLC") == 0 ||
 		strcmp(inWord, "LLP") == 0 ||
 		strcmp(inWord, "LOCAL") == 0 ||
-		strcmp(inWord, "PVT") == 0 ||
 		strcmp(inWord, "LTD") == 0 ||
+		strcmp(inWord, "ORG") == 0 ||
 		strcmp(inWord, "PC") == 0 ||
 		strcmp(inWord, "PLC") == 0 ||
+		strcmp(inWord, "PVT") == 0 ||
 		strcmp(inWord, "PROD") == 0 ||
 		strcmp(inWord, "PRODS") == 0 ||
 		strcmp(inWord, "PRODUCT") == 0 ||
 		strcmp(inWord, "PRODUCTIONS") == 0 ||
 		strcmp(inWord, "PRODUCTS") == 0 ||
 		strcmp(inWord, "TR") == 0 ||
-		strcmp(inWord, "TRADE") == 0)
+		strcmp(inWord, "TRADE") == 0 ||
+		strcmp(inWord, "WWW") == 0)
 		return 1;
 	else
 		return 0;
