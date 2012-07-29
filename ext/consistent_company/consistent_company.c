@@ -348,12 +348,13 @@ int IsCompanyWord(char * inWord)
 		strcmp(inWord, "ORG") == 0 ||
 		strcmp(inWord, "PC") == 0 ||
 		strcmp(inWord, "PLC") == 0 ||
-		strcmp(inWord, "PVT") == 0 ||
+		strcmp(inWord, "PRIVATE") == 0 ||
 		strcmp(inWord, "PROD") == 0 ||
 		strcmp(inWord, "PRODS") == 0 ||
 		strcmp(inWord, "PRODUCT") == 0 ||
 		strcmp(inWord, "PRODUCTIONS") == 0 ||
 		strcmp(inWord, "PRODUCTS") == 0 ||
+		strcmp(inWord, "PVT") == 0 ||
 		strcmp(inWord, "TR") == 0 ||
 		strcmp(inWord, "TRADE") == 0)
 		return 1;
